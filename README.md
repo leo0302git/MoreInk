@@ -2,7 +2,8 @@
 
 5.83寸墨水屏开发的电子日历以及相框
 
-<img src="file:///C:/Users/Leo/Downloads/Videoframe_20250913_114646_com.huawei.himovie.loc.jpg" title="" alt="" width="242"><img title="" src="file:///C:/Users/Leo/Downloads/Videoframe_20250913_114839_com.huawei.himovie.loc.jpg" alt="" width="220">
+<img src="images/fig1.jpg" width="190" height="440"> <img src="images/fig2.jpg" width="180" height="360">
+
 
 ## 硬件准备
 
