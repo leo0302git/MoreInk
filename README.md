@@ -2,7 +2,7 @@
 
 5.83寸墨水屏开发的电子日历以及相框
 
-
+<img src="file:///C:/Users/Leo/Downloads/Videoframe_20250913_114646_com.huawei.himovie.loc.jpg" title="" alt="" width="242"><img title="" src="file:///C:/Users/Leo/Downloads/Videoframe_20250913_114839_com.huawei.himovie.loc.jpg" alt="" width="220">
 
 ## 硬件准备
 
@@ -30,20 +30,21 @@ ESP32
 
 对于电容式触摸引脚GPIO4和GPIO32，需要自己引出线，方便触摸
 
-
-
 ## 使用到的库
 
 下述库体积太大，并未上传。用户需要自己下载，并将其放在lib文件夹下。
 
-Adafruit_BusIO
-Adafruit_GFX_Library
-ArduinoJson
-ArduinoUZlib
-GxEPD2
-U8g2_for_Adafruit_GFX
+- Adafruit_BusIO
 
+- Adafruit_GFX_Library
 
+- ArduinoJson
+
+- ArduinoUZlib
+
+- GxEPD2
+
+- U8g2_for_Adafruit_GFX
 
 ## 使用方法
 
@@ -75,6 +76,5 @@ U8g2_for_Adafruit_GFX
 尺寸不变，像素数改变：https://resizepanda.com/
 取模网站：https://www.e-paper-display.com/Image2LCD-CN.html
 一般选择水平扫描，自底向上，颜色不反转，使用下述配套函数及颜色参数
-
 
 将得到的数组粘贴进IMAGE.h，并在PageManager.cpp中修改EpdBitmap imageArray[]。命名和修改方式参考已有代码的示例。重新烧录程序至ESP32，即可在图片页看到自己传入的图片！
